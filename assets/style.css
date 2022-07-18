@@ -1,2 +1,129 @@
 
 
+.header{
+border: 10px solid transparent;
+background-image: url(./images/bubble-art2020.jpeg);
+
+}
+
+.header h1 {
+display: inline block;
+font-size: 48px;
+color: rgb(8, 8, 58);
+font-family: Geneva, Verdana, sans-serif;
+}
+
+.main{
+color: rgb(8, 8, 58);
+background: rgb(43, 130, 130, 0.3);
+font-family: Geneva, Verdana, sans-serif;
+}
+
+
+.header nav {
+padding-top: 15px;
+margin-right: 20px;
+float: right;
+font-size: 30px;
+font-family: Geneva, Verdana, sans-serif;
+position: relative;
+bottom: 100px;
+}
+
+.header nav ul {
+list-style-type: none;
+}
+
+.header nav ul li {
+display: inline-block;
+margin-left: 25px;
+}
+
+.header nav ul li:hover{
+box-shadow:inset 0px 0px 6px
+rgb(4, 78, 68);
+}
+
+.my-picture{
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+    padding: 20px 20px;
+}
+
+
+.headers{
+    display: inline-block;
+    background-color: aquamarine;
+    border: 2px solid rgb(47, 76, 101);
+    padding: 20px auto;
+}
+
+.work{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+
+.first-work{
+display:inline-flex;
+max-width: 25%;
+height: 25%;
+
+}
+
+h3{
+background-color: aquamarine;
+padding: 20px auto;
+border: 2px solid rgb(47, 76, 101);
+box-sizing: border-box;
+}
+
+.sub-work{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.sub-work img{
+width: 400px;
+height: 250px;
+border: 2px solid rgb(47, 76, 101);
+box-sizing: border-box;
+
+}
+
+#contact-me h2 {
+display: inline-block;
+background-color: aquamarine;
+border: 2px solid rgb(47, 76, 101);
+padding: 20px auto;
+}
+
+#contact-me nav {
+padding-top: 15px;
+margin-right: 20px;
+/* float:inline-end; */
+display: flex;
+justify-content: center;
+font-family: Geneva, Verdana, sans-serif;
+font-size: 20px;
+position: relative;
+bottom: 55px;
+}
+
+#contact-me nav ul {
+align-items:center;
+list-style-type: none;
+}
+
+#contact-me nav ul li {
+display: inline-block;
+margin-left: 25px;
+}
+
+.first-work-width{
+    width: 322px;
+}
+
+
