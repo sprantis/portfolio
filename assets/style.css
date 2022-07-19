@@ -124,3 +124,27 @@ h3 {
     display: inline-block;
     margin-left: 25px;
 }
+
+/* referencing media queries from Module 2 mini project */
+@media screen and (min-width: 768px) {
+    /* for tablets*/
+    .text-height{
+        max-width: 85%;
+    }
+
+    .first-work{
+        max-width: 40%;
+    }
+  }
+  
+  /* for larger screens */
+  @media screen and (min-width: 992px) {
+  
+    .text-height {
+        max-width: 95%;
+    }
+
+    .first-work{
+        max-width: 35%;
+    }
+  }
